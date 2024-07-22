@@ -3,7 +3,7 @@ let secondInput = 0;
 let operator;
 
 function addNumbers(numOne, numTwo) {
-    return numOne + numTwo;
+    return +numOne + +numTwo;
 }
 
 function subtractNumbers(numOne, numTwo) {
