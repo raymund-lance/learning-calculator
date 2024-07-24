@@ -12,11 +12,16 @@ body {
     width: 230px;
 }
 #container #screen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
     height: 70px;
     width: auto;
     border: 2px solid black;
     padding: 2px;
     margin: 3px;
+    font-size: 30px;
 }
 #container #extraButton {
     display: flex;
