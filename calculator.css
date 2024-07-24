@@ -12,20 +12,24 @@ body {
     width: 230px;
 }
 #container #screen {
-    /* display: flex;
+    display: flex;
     justify-content: flex-end;
-    align-items: flex-end; */
+    align-items: flex-end;
     height: 70px;
     width: auto;
     border: 2px solid black;
     padding: 2px;
     margin: 3px;
     font-size: 30px;
-    
+    overflow: hidden;
+    position: relative;
 }
-#screen {
+#display {
+    text-align: right;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    max-height: 100%;
+    overflow: auto;
 }
 #container #extraButton {
     display: flex;

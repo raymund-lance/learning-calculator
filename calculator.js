@@ -4,7 +4,7 @@ let operator = "";
 let dummyOperator = "";
 let total = "";
 
-const getDisplay = document.querySelector('#screen');
+const getDisplay = document.querySelector('#display');
 
 function getTotal(){
     switch(operator) {
