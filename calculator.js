@@ -105,3 +105,10 @@ getEqual.addEventListener('click', function() {
     getTotal();
 })
 
+const getClear = document.querySelector('#clear');
+getClear.addEventListener('click', function () {
+    firstNumber = "";
+    operator = ""
+    secondNumber = ""
+    getDisplay.textContent = "";
+})
